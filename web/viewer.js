@@ -12274,10 +12274,10 @@ class BasePreferences {
     "useOnlyCssZoom": false,
     "viewerCssTheme": 0,
     "viewOnLoad": 0,
-    "disableAutoFetch": false,
+    "disableAutoFetch": true, // 关闭自动获取，它仅仅会下载所需要的分片，实现了按需加载
     "disableFontFace": false,
     "disableRange": false,
-    "disableStream": false,
+    "disableStream": true,// 分页获取pdf,也需要设置这个
     "enableXfa": true
   });
   #prefs = Object.create(null);
