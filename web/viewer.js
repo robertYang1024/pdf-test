@@ -3203,7 +3203,10 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "compressed.tracemonkey-pldi-09.pdf",
+    // value: "compressed.tracemonkey-pldi-09.pdf",
+    // value: "https://wsl/e/BaiduNetdiskDownload/%E6%97%8B%E5%85%83%E4%BD%91%E4%B9%A6%E7%B1%8D/%E6%97%8B%E5%85%83%E4%BD%91%E4%B9%A6%E7%B1%8D/%E6%97%8B%E5%85%83%E4%BD%91%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C.pdf",
+    // value: "http://10.118.20.50:81/e/BaiduNetdiskDownload/%E6%97%8B%E5%85%83%E4%BD%91%E4%B9%A6%E7%B1%8D/%E6%97%8B%E5%85%83%E4%BD%91%E4%B9%A6%E7%B1%8D/%E6%97%8B%E5%85%83%E4%BD%91%E8%8B%B1%E6%96%87%E5%86%99%E4%BD%9C.pdf",
+    value: "http://106.53.139.190/pdfs/%E6%97%8B%E5%85%83%E4%BD%91%E9%96%B1%E8%AE%80%E9%AB%98%E9%BB%9E%EF%BC%9A%E6%97%8B%E5%85%83%E4%BD%91%E8%8B%B1%E6%96%87%E9%96%B1%E8%AE%80%E9%80%9A(%E6%97%8B%E5%85%83%E4%BD%91).pdf",
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {
